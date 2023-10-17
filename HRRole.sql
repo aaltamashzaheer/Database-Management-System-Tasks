@@ -1,0 +1,2 @@
+CREATE SERVER ROLE HRRole AUTHORIZATION User_HR
+GRANT SELECT ON [northwind].[dbo].[Employees] TO HRRole
